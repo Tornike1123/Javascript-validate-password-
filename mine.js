@@ -14,7 +14,7 @@ function validate(){
     let chr = document.getElementById('char');
     let ent = document.getElementById('enter');
     let eye = document.getElementById('eyes');
-    let psw =   /^(?=.*[0-9])(?=.*[A-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,25}$/;
+    let psw =   /^(?=.*[0-9])(?=.*[A-Z])(?=.*[!@#$%^&*,./<>:}{"';აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ])[a-zA-Z0-9!@#$%^&*,./<>:}{"';აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ]{8,25}$/;
     
 
     if (passw.value.match(psw)){
@@ -29,6 +29,9 @@ function validate(){
         ent.style.color = 'red'
         passw.style.borderBottom = '3px solid red'
         eye.style.color = 'red'
+        chr.textContent = 'Min. 8 characters with at least one capital letter, a number and a special character.'
+        chr.style.paddingLeft = '90px'
+        chr.style.paddingRight = '100px'
         
     }
    
