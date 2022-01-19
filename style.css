@@ -1,0 +1,43 @@
+.ps1{
+    text-align: center;
+}
+.ps2{
+    color:grey;
+}
+
+#enter{
+    padding-right: 29%;
+    padding-top: 40px;
+    color: blue;
+}
+#password1{
+    font-size: 32px;
+    border: none;
+    border-bottom: 3px solid blue;
+    width: 526px;
+    outline: none;
+}
+
+
+.form-el{
+    position: relative;
+}
+
+#eyes{
+    position: absolute;
+    left: 66%;
+    top: 16px;
+    color: blue;
+}
+#char{
+    color: grey;
+}
+
+
+/* .abs{
+    position: absolute;
+    border-top: 10px solid green;
+    width: 411px;
+    right: 36%;
+    bottom: 1px;
+} */
