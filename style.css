@@ -28,16 +28,9 @@
     left: 66%;
     top: 16px;
     color: blue;
+    font-size: 20px;
 }
 #char{
     color: grey;
 }
 
-
-/* .abs{
-    position: absolute;
-    border-top: 10px solid green;
-    width: 411px;
-    right: 36%;
-    bottom: 1px;
-} */

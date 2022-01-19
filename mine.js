@@ -14,7 +14,7 @@ function validate(){
     let chr = document.getElementById('char');
     let ent = document.getElementById('enter');
     let eye = document.getElementById('eyes');
-    let psw =   /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,25}$/;
+    let psw =   /^(?=.*[0-9])(?=.*[A-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,25}$/;
     
 
     if (passw.value.match(psw)){
