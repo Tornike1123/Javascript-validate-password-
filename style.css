@@ -6,11 +6,13 @@
 }
 
 #enter{
-    padding-right: 29%;
-    padding-top: 40px;
+    position: absolute;
+    bottom: 62px;
+    left: 13%;
     color: blue;
 }
 #password1{
+   
     font-size: 32px;
     border: none;
     border-bottom: 3px solid blue;
@@ -21,16 +23,21 @@
 
 .form-el{
     position: relative;
+    top: 50px;
+    width: 714px;
+    margin: auto;
 }
 
 #eyes{
     position: absolute;
-    left: 66%;
+    right: 14%;
     top: 16px;
     color: blue;
     font-size: 20px;
+    
+  
 }
+
 #char{
     color: grey;
 }
-
